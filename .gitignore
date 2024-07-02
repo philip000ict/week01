@@ -1,0 +1,11 @@
+.hlx/
+.cache/
+.DS_Store
+.env
+.idea/
+.vscode/
+node_modules/
+coverage/*
+pipeline.log
+logs
+deploy.sh
