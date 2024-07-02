@@ -9,7 +9,9 @@ const itemlist = [
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express', subheading: 'Slow Train to San Fernando', items: itemlist });
+  res.render('index', { title: 'Express', subheading: 'Microservice to San Fernando', items: itemlist,
+        url: 'href=https://week01-g8b3.onrender.com/', link: 'Visit Week01!'
+        });
   
 });
 

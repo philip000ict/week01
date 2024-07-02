@@ -1,6 +1,23 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image: radial-gradient(lightblue, white);
+  height: 100%;
+}
+#panel { 
+  border-color: chocolate;
+  border-width: 2px;
+  border-radius: 50px;
+  box-shadow: 10px 10px lightblue;
+  background: #fff;
+  padding: 20px;
+  width:350px;
+}
+footer {
+  color: darkblue;
+  position: fixed;
+  bottom: 20px;
+  left: 50px;
 }
 
 a {
