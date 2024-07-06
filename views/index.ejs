@@ -1,15 +1,34 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title><%= title %></title>
+    <title><%= student %> Week01 &nbsp;<%= title %></title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
   <body>
     <div id ='panel'>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= subheading %></p>
+    <h1>Week01 &nbsp;<%= title %></h1>
+    <p>Welcome to Week01 &nbsp;<%= subheading %></p>
     <table>
       <% items.forEach((item) => { %>
+        <tr>
+          <td>
+            <%= item.id %>
+          </td>
+          <td>
+            <%= item.title %>
+          </td>
+          <td>
+            <%= item.description %>
+          </td>
+        </tr>
+      <% }); %>
+    </table>
+  </div>
+  <div id ='panel'>
+    <h1>Week02 &nbsp;<%= title %></h1>
+    <p>Welcome to Week02 &nbsp;<%= subheading %></p>
+    <table>
+      <% panel01.forEach((item) => { %>
         <tr>
           <td>
             <%= item.id %>

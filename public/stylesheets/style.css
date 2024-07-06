@@ -5,12 +5,14 @@ body {
   height: 100%;
 }
 #panel { 
+  display: inline-block;
   border-color: chocolate;
   border-width: 2px;
   border-radius: 50px;
   box-shadow: 10px 10px lightblue;
   background: #fff;
   padding: 20px;
+  margin: 25px;
   width:350px;
 }
 footer {
